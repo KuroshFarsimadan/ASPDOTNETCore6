@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASPNET6Tutorial</name>
+    </assembly>
+    <members>
+        <member name="M:ASPNET6Tutorial.Controllers.CitiesController.GetCities(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="name"></param>
+            <param name="searchQuery"></param>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.CitiesController.GetCity(System.Int32,System.Boolean)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="id"></param>
+            <param name="includePointsOfInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestController.GetPointsOfInterest(System.Int32,System.Boolean)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="includePointsOfInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestController.GetPointOfInterest(System.Int32,System.Int32)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestController.CreatePointOfInterestAsync(System.Int32,ASPNET6Tutorial.Models.PointOfInterestForCreationDto)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestController.UpdatePointOfInterestAsync(System.Int32,System.Int32,ASPNET6Tutorial.Models.PointOfInterestForUpdateDto)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <param name="pointOfInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestController.PartiallyUpdatePointOfInterestAsync(System.Int32,System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{ASPNET6Tutorial.Models.PointOfInterestForUpdateDto})">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <param name="patchDocument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestController.DeletePointOfInterestAsync(System.Int32,System.Int32)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestControllerV2.GetPointsOfInterest(System.Int32,System.Boolean)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="includePointsOfInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestControllerV2.GetPointOfInterest(System.Int32,System.Int32)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestControllerV2.CreatePointOfInterestAsync(System.Int32,ASPNET6Tutorial.Models.PointOfInterestForCreationDto)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestControllerV2.UpdatePointOfInterestAsync(System.Int32,System.Int32,ASPNET6Tutorial.Models.PointOfInterestForUpdateDto)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <param name="pointOfInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestControllerV2.PartiallyUpdatePointOfInterestAsync(System.Int32,System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{ASPNET6Tutorial.Models.PointOfInterestForUpdateDto})">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <param name="patchDocument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNET6Tutorial.Controllers.PointsOfInterestControllerV2.DeletePointOfInterestAsync(System.Int32,System.Int32)">
+            <summary>
+            Summary test
+            </summary>
+            <param name="cityId"></param>
+            <param name="pointOfInterestId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ASPNET6Tutorial.Models.CityDto">
+            <summary>
+            Test CityDto
+            </summary>
+        </member>
+        <member name="P:ASPNET6Tutorial.Models.CityDto.Id">
+            <summary>
+            Test CityDto id
+            </summary>
+        </member>
+    </members>
+</doc>

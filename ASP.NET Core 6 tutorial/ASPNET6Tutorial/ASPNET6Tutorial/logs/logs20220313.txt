@@ -1,0 +1,382 @@
+2022-03-13 11:53:04.058 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-03-13 11:53:05.932 -04:00 [INF] Entity Framework Core 6.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.3' with options: None
+2022-03-13 11:53:06.264 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 11:53:06.268 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 11:53:06.386 -04:00 [DBG] 'CityInfoContext' disposed.
+2022-03-13 11:59:21.906 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-03-13 11:59:22.982 -04:00 [INF] Entity Framework Core 6.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.3' with options: None
+2022-03-13 11:59:23.188 -04:00 [DBG] Migrating using database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.197 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.210 -04:00 [DBG] An error occurred using the connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.213 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.214 -04:00 [DBG] An error occurred using the connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.215 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.224 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.236 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 11:59:23.244 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2022-03-13 11:59:23.258 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-03-13 11:59:23.301 -04:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-03-13 11:59:23.303 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.306 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.443 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 11:59:23.451 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 11:59:23.495 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 11:59:23.495 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 11:59:23.495 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.495 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.496 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-03-13 11:59:23.517 -04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-03-13 11:59:23.517 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.517 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.519 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.521 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.530 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-03-13 11:59:23.530 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-03-13 11:59:23.530 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.530 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.532 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 11:59:23.537 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 11:59:23.537 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.537 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.538 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-03-13 11:59:23.539 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-03-13 11:59:23.539 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.539 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.539 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-03-13 11:59:23.539 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-03-13 11:59:23.541 -04:00 [DBG] A data reader was disposed.
+2022-03-13 11:59:23.541 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.541 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.568 -04:00 [INF] Applying migration '20220313155306_ASPNET6TutorialInitialMigration'.
+2022-03-13 11:59:23.624 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.624 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:23.626 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-03-13 11:59:23.638 -04:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-03-13 11:59:23.639 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 11:59:23.639 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 11:59:23.639 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2022-03-13 11:59:23.640 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2022-03-13 11:59:23.640 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 11:59:23.640 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 11:59:24.035 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2022-03-13 11:59:24.036 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2022-03-13 11:59:24.036 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 11:59:24.036 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 11:59:24.036 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterest_CityId" ON "PointOfInterest" ("CityId");
+2022-03-13 11:59:24.037 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterest_CityId" ON "PointOfInterest" ("CityId");
+2022-03-13 11:59:24.037 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 11:59:24.037 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 11:59:24.037 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220313155306_ASPNET6TutorialInitialMigration', '6.0.3');
+2022-03-13 11:59:24.037 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220313155306_ASPNET6TutorialInitialMigration', '6.0.3');
+2022-03-13 11:59:24.039 -04:00 [DBG] Committing transaction.
+2022-03-13 11:59:24.045 -04:00 [DBG] Committed transaction.
+2022-03-13 11:59:24.052 -04:00 [DBG] Disposing transaction.
+2022-03-13 11:59:24.052 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 11:59:24.052 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 11:59:24.054 -04:00 [DBG] 'CityInfoContext' disposed.
+2022-03-13 14:39:12.498 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-03-13 14:39:13.641 -04:00 [INF] Entity Framework Core 6.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.3' with options: None
+2022-03-13 14:39:13.792 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:39:13.795 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:39:13.797 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:39:13.797 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:39:13.805 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:39:13.805 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:39:13.805 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:39:13.805 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:39:13.889 -04:00 [DBG] 'CityInfoContext' disposed.
+2022-03-13 14:39:58.783 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-03-13 14:39:59.782 -04:00 [INF] Entity Framework Core 6.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.3' with options: None
+2022-03-13 14:39:59.999 -04:00 [DBG] Migrating using database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.007 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.029 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.054 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-03-13 14:40:00.063 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (11ms).
+2022-03-13 14:40:00.065 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.069 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.079 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:40:00.109 -04:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:40:00.111 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.115 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.116 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.117 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.117 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-03-13 14:40:00.117 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-03-13 14:40:00.117 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.117 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.117 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:40:00.117 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:40:00.117 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.118 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.132 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-03-13 14:40:00.132 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-03-13 14:40:00.132 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.132 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.133 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-03-13 14:40:00.134 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-03-13 14:40:00.138 -04:00 [DBG] A data reader was disposed.
+2022-03-13 14:40:00.138 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.138 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.152 -04:00 [INF] Applying migration '20220313183913_ASPNET6TitorialMigrationUpdate1'.
+2022-03-13 14:40:00.196 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.196 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.198 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-03-13 14:40:00.201 -04:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-03-13 14:40:00.203 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 14:40:00.203 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 14:40:00.204 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2022-03-13 14:40:00.206 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2022-03-13 14:40:00.206 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 14:40:00.206 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 14:40:00.206 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220313183913_ASPNET6TitorialMigrationUpdate1', '6.0.3');
+2022-03-13 14:40:00.206 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220313183913_ASPNET6TitorialMigrationUpdate1', '6.0.3');
+2022-03-13 14:40:00.207 -04:00 [DBG] Committing transaction.
+2022-03-13 14:40:00.214 -04:00 [DBG] Committed transaction.
+2022-03-13 14:40:00.215 -04:00 [DBG] Disposing transaction.
+2022-03-13 14:40:00.215 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.215 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:40:00.218 -04:00 [DBG] 'CityInfoContext' disposed.
+2022-03-13 14:48:22.950 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-03-13 14:48:24.421 -04:00 [INF] Entity Framework Core 6.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.3' with options: None
+2022-03-13 14:48:24.689 -04:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.690 -04:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.729 -04:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.729 -04:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.765 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:48:24.772 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:48:24.773 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:48:24.783 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:48:24.907 -04:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.907 -04:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.907 -04:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.907 -04:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.923 -04:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.929 -04:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.930 -04:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.930 -04:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-03-13 14:48:24.930 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:48:24.930 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:48:24.944 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-03-13 14:48:24.944 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-03-13 14:48:25.078 -04:00 [DBG] 'CityInfoContext' disposed.
+2022-03-13 14:48:54.080 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-03-13 14:48:55.245 -04:00 [INF] Entity Framework Core 6.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.3' with options: None
+2022-03-13 14:48:55.348 -04:00 [DBG] Migrating using database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.361 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.394 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.427 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-03-13 14:48:55.439 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (7ms).
+2022-03-13 14:48:55.441 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.444 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.458 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:48:55.491 -04:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:48:55.493 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.501 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.503 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.503 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.504 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-03-13 14:48:55.504 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-03-13 14:48:55.504 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.504 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.504 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:48:55.505 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-03-13 14:48:55.505 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.505 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.531 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-03-13 14:48:55.531 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-03-13 14:48:55.531 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.531 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.531 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-03-13 14:48:55.532 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-03-13 14:48:55.539 -04:00 [DBG] A data reader was disposed.
+2022-03-13 14:48:55.539 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.539 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.557 -04:00 [INF] Applying migration '20220313184824_ASPNET6TitorialMigrationUpdate2'.
+2022-03-13 14:48:55.787 -04:00 [DBG] Opening connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.787 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.792 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-03-13 14:48:55.797 -04:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-03-13 14:48:55.809 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 14:48:55.809 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 14:48:55.810 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'Description', 'Test city 1');
+2022-03-13 14:48:55.811 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'Description', 'Test city 1');
+2022-03-13 14:48:55.811 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 14:48:55.811 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 14:48:55.812 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'Description', 'Test city 2');
+2022-03-13 14:48:55.812 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'Description', 'Test city 2');
+2022-03-13 14:48:55.812 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 14:48:55.812 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 14:48:55.812 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'Description', 'Point of interest 1');
+2022-03-13 14:48:55.812 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'Description', 'Point of interest 1');
+2022-03-13 14:48:55.812 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 14:48:55.812 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 14:48:55.812 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 2, 'Description', 'Point of interest 2');
+2022-03-13 14:48:55.813 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 2, 'Description', 'Point of interest 2');
+2022-03-13 14:48:55.813 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-03-13 14:48:55.813 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-03-13 14:48:55.813 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220313184824_ASPNET6TitorialMigrationUpdate2', '6.0.3');
+2022-03-13 14:48:55.813 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220313184824_ASPNET6TitorialMigrationUpdate2', '6.0.3');
+2022-03-13 14:48:55.822 -04:00 [DBG] Committing transaction.
+2022-03-13 14:48:55.831 -04:00 [DBG] Committed transaction.
+2022-03-13 14:48:55.841 -04:00 [DBG] Disposing transaction.
+2022-03-13 14:48:55.841 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.841 -04:00 [DBG] Closed connection to database 'main' on server 'ASPNET6Tutorial.db'.
+2022-03-13 14:48:55.843 -04:00 [DBG] 'CityInfoContext' disposed.
+2022-03-13 14:55:43.218 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-03-13 14:55:47.037 -04:00 [DBG] Hosting starting
+2022-03-13 14:55:51.178 -04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 04B1888C3A150DF55AA83118B11E0F90E9047235)
+2022-03-13 14:55:52.244 -04:00 [INF] Now listening on: https://localhost:7261
+2022-03-13 14:55:52.249 -04:00 [INF] Now listening on: http://localhost:5261
+2022-03-13 14:55:52.817 -04:00 [DBG] Connection id "0HMG54CCGABG6" accepted.
+2022-03-13 14:55:53.090 -04:00 [DBG] Connection id "0HMG54CCGABG7" accepted.
+2022-03-13 14:55:53.090 -04:00 [DBG] Loaded hosting startup assembly ASPNET6Tutorial
+2022-03-13 14:55:53.093 -04:00 [DBG] Connection id "0HMG54CCGABG6" started.
+2022-03-13 14:55:53.095 -04:00 [DBG] Connection id "0HMG54CCGABG7" started.
+2022-03-13 14:55:53.097 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-03-13 14:55:53.100 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-03-13 14:55:53.101 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-13 14:55:53.102 -04:00 [INF] Hosting environment: Development
+2022-03-13 14:55:53.103 -04:00 [INF] Content root path: C:\Users\KFarsimadan64912\Desktop\ASP.NET Core 6 tutorial\ASPNET6Tutorial\ASPNET6Tutorial\
+2022-03-13 14:55:53.105 -04:00 [DBG] Hosting started
+2022-03-13 14:55:55.767 -04:00 [DBG] Connection id "0HMG54CCGABG8" accepted.
+2022-03-13 14:55:56.442 -04:00 [DBG] Connection id "0HMG54CCGABG9" accepted.
+2022-03-13 14:55:56.442 -04:00 [DBG] Connection id "0HMG54CCGABG8" started.
+2022-03-13 14:55:56.453 -04:00 [DBG] Connection id "0HMG54CCGABG9" started.
+2022-03-13 14:55:56.563 -04:00 [DBG] Connection 0HMG54CCGABG9 established using the following protocol: "Tls12"
+2022-03-13 14:55:56.563 -04:00 [DBG] Connection 0HMG54CCGABG8 established using the following protocol: "Tls12"
+2022-03-13 14:55:56.918 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger - -
+2022-03-13 14:55:57.008 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-03-13 14:55:57.414 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger - - - 301 0 - 503.0580ms
+2022-03-13 14:55:57.528 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - -
+2022-03-13 14:55:58.289 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-03-13 14:55:58.890 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-03-13 14:55:58.893 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - - - 200 - text/html;charset=utf-8 1364.7113ms
+2022-03-13 14:55:59.152 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui-bundle.js - -
+2022-03-13 14:55:59.152 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui-standalone-preset.js - -
+2022-03-13 14:55:59.152 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/swagger-ui.css - -
+2022-03-13 14:55:59.204 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-03-13 14:55:59.221 -04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-03-13 14:55:59.231 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui.css - - - 200 143632 text/css 78.8005ms
+2022-03-13 14:55:59.234 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 81.9009ms
+2022-03-13 14:55:59.265 -04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-03-13 14:55:59.267 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 114.7812ms
+2022-03-13 14:55:59.265 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - -
+2022-03-13 14:55:59.274 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 8.9446ms
+2022-03-13 14:56:03.514 -04:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-03-13 14:56:03.543 -04:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-03-13 14:56:03.554 -04:00 [DBG] Connection id "0HMG54CCGABG6" stopped.
+2022-03-13 14:56:03.554 -04:00 [DBG] Connection id "0HMG54CCGABG7" stopped.
+2022-03-13 14:56:03.564 -04:00 [DBG] Connection id "0HMG54CCGABG7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-03-13 14:56:03.564 -04:00 [DBG] Connection id "0HMG54CCGABG6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-03-13 14:56:03.610 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - -
+2022-03-13 14:56:03.981 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 371.3862ms
+2022-03-13 14:56:04.830 -04:00 [DBG] Connection id "0HMG54CCGABG9" received FIN.
+2022-03-13 14:56:04.879 -04:00 [DBG] Connection id "0HMG54CCGABG8" received FIN.
+2022-03-13 14:56:05.305 -04:00 [DBG] Connection id "0HMG54CCGABG9" is closed. The last processed stream ID was 0.
+2022-03-13 14:56:05.305 -04:00 [DBG] Connection id "0HMG54CCGABG8" is closed. The last processed stream ID was 13.
+2022-03-13 14:56:05.307 -04:00 [DBG] Connection id "0HMG54CCGABG9" sending FIN because: "The client closed the connection."
+2022-03-13 14:56:05.308 -04:00 [DBG] Connection id "0HMG54CCGABG8" sending FIN because: "The client closed the connection."
+2022-03-13 14:56:05.398 -04:00 [DBG] Connection id "0HMG54CCGABG8" stopped.
+2022-03-13 14:56:05.559 -04:00 [DBG] Connection id "0HMG54CCGABG9" stopped.
+2022-03-13 14:56:07.837 -04:00 [DBG] Connection id "0HMG54CCGABGA" accepted.
+2022-03-13 14:56:07.840 -04:00 [DBG] Connection id "0HMG54CCGABGA" started.
+2022-03-13 14:56:07.846 -04:00 [DBG] Connection 0HMG54CCGABGA established using the following protocol: "Tls12"
+2022-03-13 14:56:07.852 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/favicon-32x32.png - -
+2022-03-13 14:56:07.873 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-03-13 14:56:07.878 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/favicon-32x32.png - - - 200 628 image/png 25.7621ms
+2022-03-13 14:56:14.779 -04:00 [DBG] Connection id "0HMG54CCGABGA" received FIN.
+2022-03-13 14:56:14.782 -04:00 [DBG] Connection id "0HMG54CCGABGA" sending FIN because: "The client closed the connection."
+2022-03-13 14:56:14.782 -04:00 [DBG] Connection id "0HMG54CCGABGA" is closed. The last processed stream ID was 1.
+2022-03-13 14:56:14.973 -04:00 [DBG] Connection id "0HMG54CCGABGA" stopped.
